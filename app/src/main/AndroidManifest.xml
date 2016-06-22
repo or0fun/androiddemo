@@ -25,6 +25,7 @@
         <activity android:name=".ActivityCollapsingtoolbarlayoutActivity"/>
         <activity android:name=".ActivitySwiperefrshCollapstoolbarActivity"/>
         <activity android:name=".ActivityTextinputlayoutActivity"/>
+        <activity android:name=".ActivityHideToolbarActivity"/>
     </application>
 
 </manifest>

@@ -18,6 +18,7 @@ public class MainActivity extends Activity {
     private Button coordinatorlayoutBtn;
     private Button SwiperefrshCollapstoolbar;
     private Button textinputlayout;
+    private Button hideToolBar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -55,6 +56,15 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, ActivityTextinputlayoutActivity.class));
+            }
+        });
+
+
+        hideToolBar = (Button) findViewById(R.id.hide_tool_bar);
+        hideToolBar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, ActivityHideToolbarActivity.class));
             }
         });
     }

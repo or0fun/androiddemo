@@ -13,7 +13,7 @@
         android:id="@+id/swipe_refresh_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="SwipeRefresh1"/>
+        android:text="下拉刷新"/>
 
     <Button
         android:id="@+id/coordinatorlayout_btn"
@@ -43,8 +43,9 @@
         android:layout_height="wrap_content"
         android:text="SwipeRefresh7"/>
     <Button
+        android:id="@+id/hide_tool_bar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="SwipeRefresh8"/>
+        android:text="隐藏标题栏"/>
 
 </com.google.android.flexbox.FlexboxLayout>
