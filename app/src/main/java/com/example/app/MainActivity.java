@@ -16,12 +16,15 @@ public class MainActivity extends Activity {
     private FlexboxLayout flexboxLayout;
     private Button swipeRefreshBtn;
     private Button coordinatorlayoutBtn;
+    private Button SwiperefrshCollapstoolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
+        SwiperefrshCollapstoolbar = (Button) findViewById(R.id.SwiperefrshCollapstoolbar);
 
         flexboxLayout = (FlexboxLayout) findViewById(R.id.flexbox_layout);
         swipeRefreshBtn = (Button) findViewById(R.id.swipe_refresh_btn);
@@ -37,6 +40,12 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, ActivityCollapsingtoolbarlayoutActivity.class));
+            }
+        });
+        SwiperefrshCollapstoolbar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, ActivitySwiperefrshCollapstoolbarActivity.class));
             }
         });
     }

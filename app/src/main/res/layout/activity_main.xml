@@ -21,9 +21,10 @@
         android:layout_height="wrap_content"
         android:text="coordinatorlayout_btn"/>
     <Button
+        android:id="@+id/SwiperefrshCollapstoolbar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="SwipeRefresh3"/>
+        android:text="SwiperefrshCollapstoolbar"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
