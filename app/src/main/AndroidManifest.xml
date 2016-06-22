@@ -24,6 +24,7 @@
         </activity>
         <activity android:name=".ActivityCollapsingtoolbarlayoutActivity"/>
         <activity android:name=".ActivitySwiperefrshCollapstoolbarActivity"/>
+        <activity android:name=".ActivityTextinputlayoutActivity"/>
     </application>
 
 </manifest>

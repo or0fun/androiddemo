@@ -26,9 +26,10 @@
         android:layout_height="wrap_content"
         android:text="SwiperefrshCollapstoolbar"/>
     <Button
+        android:id="@+id/textinputlayout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="SwipeRefresh4"/>
+        android:text="TextInputLayout"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

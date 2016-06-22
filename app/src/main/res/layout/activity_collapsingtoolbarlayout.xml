@@ -67,6 +67,8 @@
         app:rippleColor="#33728dff"
         app:elevation="6dp"
         app:pressedTranslationZ="12dp"
+        app:layout_anchor="@id/appbar"
+        app:layout_anchorGravity="bottom|right|end"
         android:src="@android:drawable/ic_dialog_email" />
 
 </android.support.design.widget.CoordinatorLayout>

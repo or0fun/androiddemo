@@ -17,6 +17,7 @@ public class MainActivity extends Activity {
     private Button swipeRefreshBtn;
     private Button coordinatorlayoutBtn;
     private Button SwiperefrshCollapstoolbar;
+    private Button textinputlayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,6 +47,14 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, ActivitySwiperefrshCollapstoolbarActivity.class));
+            }
+        });
+
+        textinputlayout = (Button) findViewById(R.id.textinputlayout);
+        textinputlayout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, ActivityTextinputlayoutActivity.class));
             }
         });
     }
