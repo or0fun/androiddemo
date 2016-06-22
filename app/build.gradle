@@ -25,5 +25,6 @@ dependencies {
     compile 'com.android.support:appcompat-v7:24.0.0'
     compile 'com.android.support:design:24.0.0'
     compile 'com.baiwanlu.android:webview:1.0.0'
-
+    compile 'com.baiwanlu.android:fimage:1.0.0'
+    compile 'com.google.android:flexbox:0.2.2'
 }
