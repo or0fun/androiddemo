@@ -26,6 +26,7 @@
         <activity android:name=".ActivitySwiperefrshCollapstoolbarActivity"/>
         <activity android:name=".ActivityTextinputlayoutActivity"/>
         <activity android:name=".ActivityHideToolbarActivity"/>
+        <activity android:name=".ActivityCoordinatorlayoutActivity"/>
     </application>
 
 </manifest>

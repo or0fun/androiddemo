@@ -1,51 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.google.android.flexbox.FlexboxLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:id="@+id/flexbox_layout"
-    app:alignContent="space_around"
-    app:alignItems="flex_start"
-    app:flexWrap="wrap">
+    android:layout_height="match_parent">
 
-    <Button
-        android:id="@+id/swipe_refresh_btn"
-        android:layout_width="wrap_content"
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="下拉刷新"/>
+        android:background="?attr/colorPrimary"
+        app:title="测试标题"/>
 
-    <Button
-        android:id="@+id/coordinatorlayout_btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="coordinatorlayout_btn"/>
-    <Button
-        android:id="@+id/SwiperefrshCollapstoolbar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="SwiperefrshCollapstoolbar"/>
-    <Button
-        android:id="@+id/textinputlayout"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextInputLayout"/>
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="SwipeRefresh5"/>
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="SwipeRefresh6"/>
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="SwipeRefresh7"/>
-    <Button
-        android:id="@+id/hide_tool_bar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="隐藏标题栏"/>
+    <com.google.android.flexbox.FlexboxLayout
+        android:id="@+id/flexbox_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:alignContent="space_around"
+        app:alignItems="flex_start"
+        app:flexWrap="wrap">
 
-</com.google.android.flexbox.FlexboxLayout>
+        <Button
+            android:id="@+id/swipe_refresh_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="下拉刷新" />
+
+        <Button
+            android:id="@+id/coordinatorlayout_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="coordinatorlayout_btn" />
+
+        <Button
+            android:id="@+id/SwiperefrshCollapstoolbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SwiperefrshCollapstoolbar" />
+
+        <Button
+            android:id="@+id/textinputlayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextInputLayout" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SwipeRefresh5" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SwipeRefresh6" />
+
+        <Button
+            android:id="@+id/behavior"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="自定义Behavior" />
+
+        <Button
+            android:id="@+id/hide_tool_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="隐藏标题栏" />
+
+    </com.google.android.flexbox.FlexboxLayout>
+</android.support.design.widget.CoordinatorLayout>
